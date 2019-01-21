@@ -3,6 +3,7 @@ import { shallow } from 'enzyme'
 import App from 'components/App'
 import CommentBox from 'components/CommentBox'
 import CommentList from 'components/CommentList'
+import Root from 'Root'
 
 let wrapped
 beforeEach(() => wrapped = shallow(<App/>))
